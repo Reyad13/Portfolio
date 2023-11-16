@@ -1,0 +1,83 @@
+// resources/sass/app.scss
+
+// Import Bootstrap styles
+@import '~bootstrap/scss/bootstrap';
+
+// Your custom styles
+
+/* Body */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px;
+}
+
+/* Presentation Section */
+#presentation {
+    h2 {
+        color: #007bff;
+    }
+}
+
+/* Parcours Section */
+#parcours {
+    h2 {
+        color: #007bff;
+    }
+}
+
+/* Competences Section */
+#competences {
+    h2 {
+        color: #007bff;
+    }
+    .list-group-item {
+        background-color: #ffffff;
+        color: #343a40;
+    }
+}
+
+/* Projets Section */
+#projets {
+    h2 {
+        color: #007bff;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .card-title {
+        color: #007bff;
+    }
+    .card-text {
+        color: #343a40;
+    }
+}
+
+/* Contact Section */
+#contact {
+    h2 {
+        color: #007bff;
+    }
+}
